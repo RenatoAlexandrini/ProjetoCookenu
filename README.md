@@ -4,33 +4,34 @@ Projeto Cookenu
 <img src="https://user-images.githubusercontent.com/102265620/232608087-df71270b-199a-4b11-8af0-962ef4ce5e86.png" width="40" height="40"/>
 <hr>
 <h4>
-<img src="https://user-images.githubusercontent.com/102265620/231878490-608ecccb-061f-476d-a43b-708590d03f8d.png" width="20" height="20"/>
+<img src="https://user-images.githubusercontent.com/102265620/232635961-16b32592-2838-428c-ad15-012aa7a357a5.png" width="20" height="20"/>
 O projeto Cookenu, tem como principal objetivo, reforçar o que foi aprendido sobre o conteúdo de Backend, ao longo do curso da Labenu.
-Utilizando uma arquitetura em três camadas(Data, Controller e Business), os conceitos de Herança, Arquitetura limpa, Criptografia e principalmente reforçando ainda mais o conceito de Programação Orientada a Objeto, com criação de classes para todas as funções e na maioria das DTOs utilizadas no projeto, também aprofundando o conceito de autenticação inserindo a parte de Role da conta, onde no caso, existe um tipo de conta Normal com funções restritas e uma conta de Administrador.
+Utilizando uma arquitetura em três camadas(Data, Controller e Business), os conceitos de Herança, Arquitetura limpa, Criptografia e principalmente reforçando ainda mais o conceito de Programação Orientada a Objeto, com criação de classes para todas as funções e na maioria das DTOs utilizadas no projeto, também aprofundando o conceito de autenticação, inserindo a parte de "Role" da conta, existindo um tipo de conta Normal com funções restritas e uma conta de Administrador.
 </h4>
 <h4>
-<img src="https://user-images.githubusercontent.com/102265620/231880058-06ecbf5b-02ee-44e0-a491-aebe1238d5ad.png" width="20" height="20"/>
+<img src="https://user-images.githubusercontent.com/102265620/232636107-ab8c585f-47db-439f-ab33-0b112fc128a4.png" width="22" height="22"/>
 O projeto simula uma rede social de receitas contendo as entidades, Usuários, Receitas e Seguidores, composta pelas ações mais comuns em redes sociais, como criar um usuário, criar uma receita, verificar uma receita postada, seguir um usuário, receber um feed com as receitas postadas por todos os usuários seguidos, verificar o profile, atualizar posts e até deletar contas.
 </h4>
 <hr>
 <h3>
-<img src="https://user-images.githubusercontent.com/102265620/231886048-8d35264b-8e26-45ae-a01b-3ae70dfbb2c4.png" width="35" height="35"/>
+
+<img src="https://user-images.githubusercontent.com/102265620/232636680-10501fe8-3b86-416c-b615-c9983bbe850c.png" width="35" height="35"/>
 Como Testar
 </h3>
 <h4>
 <img src="https://user-images.githubusercontent.com/102265620/231886670-84bbf853-61da-4e86-9e84-ed339e0869bb.png" width="20" height="20"/> Link da Documentação via Postman:
 <br></br>
-https://documenter.getpostman.com/view/24755055/2s8Z75Spvm
+https://documenter.getpostman.com/view/24755055/2s93CHuFMw
 <br></br>
 <br></br>
 <img src="https://user-images.githubusercontent.com/102265620/230519105-cde9cf7d-02fe-4561-8073-38e6ad1909dd.png" width="20" height="20"/> Link do Render:
 <br></br>
-https://jemison-labesystem1.onrender.com
+https://projeto-jemison-cookenu3.onrender.com
 <br></br>
 </h4>
 
 ```
-- git clone https://github.com/RenatoAlexandrini/Projeto-LabEcommerce-Backend
+- git clone https://github.com/future4code/Jemison-cookenu3
 - npm install
 - npm run migrations
 - npm run start
@@ -39,7 +40,7 @@ https://jemison-labesystem1.onrender.com
 
 
 <h2>
-<img src="https://user-images.githubusercontent.com/102265620/231894847-1bf41bed-966f-420b-8385-50e803e8eb09.png" width="35" height="35"/> Endpoints:
+<img src="https://user-images.githubusercontent.com/102265620/232643560-015f8d46-4ebb-4780-85ec-ada1d05253e4.png" width="35" height="35"/> Endpoints:
 <br></br>
 </h2>
 <h3>
@@ -48,6 +49,7 @@ https://jemison-labesystem1.onrender.com
 <h5>
 Endpoint que recebe através de um "body" apenas o nome da nova turma, antes da confirmação da criação, será verificado se já existe alguma turma cadastrada anteriormente com o mesmo nome.
 </h5>
+
 
 
 <h3>
