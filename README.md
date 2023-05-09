@@ -18,7 +18,7 @@ O projeto simula uma rede social de receitas contendo as entidades, Usuários, R
 </h4>
 <hr>
 <h3>
-
+ 
 <img src="https://user-images.githubusercontent.com/102265620/232636680-10501fe8-3b86-416c-b615-c9983bbe850c.png" width="35" height="35"/>
 Como Testar
 </h3>
@@ -27,21 +27,23 @@ Como Testar
 <br></br>
 https://documenter.getpostman.com/view/24755055/2s93CHuFMw
 <br></br>
-<br></br>
-<img src="https://user-images.githubusercontent.com/102265620/230519105-cde9cf7d-02fe-4561-8073-38e6ad1909dd.png" width="20" height="20"/> Link do Render:
-<br></br>
-https://projeto-jemison-cookenu3.onrender.com
+- Com o Postman instalado em seu computador, basta abrir a documentação e clicar no botão <img src="https://github.com/RenatoAlexandrini/LabenuSystem/assets/102265620/b4329b29-60d4-4ed4-8f94-0ca08cc866a9" width="170" height="50" align="center"/>  para testar diretamente no Postman.
 <br></br>
 </h4>
+<h4>
+<img src="https://github.com/RenatoAlexandrini/ProjetoCookenu/assets/102265620/ea3f9c49-cd5e-4026-ace1-81ce8fdb7bd3" width="30" height="30" align="center"/> Para testar localmente:
+</h4>
+
 
 ```
-- git clone https://github.com/future4code/Jemison-cookenu3
+- inicie o Git Bash em uma pasta e digite:
+- git clone https://github.com/RenatoAlexandrini/ProjetoCookenu
 - npm install
 - npm run migrations
 - npm run start
+- Em cada endpoint, substitua o "https://projeto-jemison-cookenu3.onrender.com" por "http://localhost:3003"
 ```
 <hr>
-
 
 <h2>
 <img src="https://user-images.githubusercontent.com/102265620/232643560-015f8d46-4ebb-4780-85ec-ada1d05253e4.png" width="40" height="40"/> Endpoints:
